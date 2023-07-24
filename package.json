@@ -9,6 +9,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
+    "sass": "^1.64.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -16,7 +17,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "sass" : "sass --watch ./utils/main.scss:./public/css/style.css"
+    "sass": "sass --watch ./src/utils/main.scss:./public/css/style.css"
   },
   "eslintConfig": {
     "extends": [
