@@ -1,15 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Banner from './components/Banner';
+import App from './App';
 import { BrowserRouter } from 'react-router-dom';
-import Nav from "./components/Nav/Nav"
 import "./utils/main.scss"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
-    <Banner/>
-    <Nav/>
+      <App/>
   </BrowserRouter>
 );
 
