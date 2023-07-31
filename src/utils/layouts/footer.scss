@@ -1,0 +1,12 @@
+.footer-container{
+    width:100%;
+    background-color: black;
+    text-align: center;
+    color:white;
+    padding-top:35px;
+    padding-bottom: 15px;
+    margin-top:40px;
+    &img{
+        align-self: center;
+    }
+}
