@@ -1,10 +1,8 @@
 
 import { useEffect, useState } from "react"
-import Header from "../../components/Header/Header";
 import Card from "../../components/Card/Card";
 import { Link } from "react-router-dom";
 import Slogan from "../../components/Slogan/Slogan"
-import Footer from "../../components/Footer/footer";
 
 function Home() {
     const [data, setData] = useState([]);

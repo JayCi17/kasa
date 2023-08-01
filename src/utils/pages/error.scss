@@ -3,8 +3,8 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    color: #ff6060;
-    font-family: "Montserrat";
+    @include fontPrimary;
+
 
 
     .errorNumber {
