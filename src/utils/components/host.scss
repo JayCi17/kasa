@@ -1,0 +1,46 @@
+.hostInfo-container {
+    width: 81%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 20px;
+}
+
+.title-container {
+    font-family: "Montserrat";
+    color: $primary-color;
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+}
+
+
+
+.host {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.hostPicture {
+    & img {
+        border-radius: 50%;
+        object-fit: cover;
+        height: 115px;
+    }
+}
+
+.hostName {
+    width: 64px;
+    font-size: 18px;
+    font-weight: bold;
+    @include fontPrimary;
+}
