@@ -4,8 +4,8 @@ import rightArrow from "../../assets/arrowRight.png"
 
 
 function Carrousel({ slides }) {
-    const [current, setCurrent] = useState[0];//index 0 au premier slide
-    const lenght = slides.lenght//longueur du tableau en slides
+    const [current, setCurrent] = useState(0);//index 0 au premier slide
+    const lenght = slides.length//longueur du tableau en slides
 
     const nextSlides = () => {
         setCurrent(current === lenght - 1 ? 0 : current + 1);//on retourne au premier slide quand on arrive au dernier
