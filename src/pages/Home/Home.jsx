@@ -22,7 +22,7 @@ function Home() {
 
     return (
         <>
-            <div>
+            <div className="slogan-container">
                 <Slogan />
             </div>
             <div className="card-container">

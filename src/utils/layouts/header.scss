@@ -1,48 +1,81 @@
 //Header style//
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
-.nav{
-    margin-top:-40px;;
-    margin-left:75%;
-    font-size:24px;
+.header {
+    img {
+        width: 100%;
+    }
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.5em;
     font-family: "Montserrat";
 }
 
-.Home{
-    color:#FF6060;
+.Home {
+    color: #FF6060;
     font-weight: bold;
-    padding-right:60px;
     text-decoration: none;
-    &:hover{
+
+    &:hover,
+    &:focus {
         text-decoration: underline;
     }
 }
 
-.About{
-    color:#FF6060;
-    padding-left:40px;
+.About {
+    color: #FF6060;
     text-decoration: none;
     font-weight: bold;
-    &:hover{
+    padding-left: 2.5em;
+
+    &:hover,
+    &:focus {
         text-decoration: underline;
     }
 }
 
-
-.header{
-    margin-left:190px;
-}
 
 // Fin du header style//
 
 //Slogan style//
 
-.section1{
-    margin-top: 50px;
-    text-align: center;
-    font-family:"MontSerrat";
+.slogan-container {
+
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+
 }
 
-.slogan{
-    width:80%;
+.section1 {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: "MontSerrat";
+    display: flex;
 }
+
+.slogan {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin: 0;
+}
+
 //fin su slogan style//
+
+//media queries//
+
+@media only screen and (max-width :1199px) {
+    .header {
+        margin-left: 0;
+    }
+}
