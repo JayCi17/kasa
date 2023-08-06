@@ -1,7 +1,7 @@
 .tags-container {
     display: flex;
     justify-content: space-between;
-    width: 40%;
+    width: 50%;
 
     & .tagButton {
         background-color: $primary-color;
@@ -9,7 +9,7 @@
         border-radius: 10px;
         color: white;
         font-family: "Montserrat";
-        font-size: 12px;
+        font-size: 10px;
         font-weight: bold;
     }
 }

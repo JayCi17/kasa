@@ -2,7 +2,7 @@
     width: 81%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5%;
+    margin-top: 3%;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -42,5 +42,20 @@
     width: 64px;
     font-size: 18px;
     font-weight: bold;
+    margin-right: 15%;
     @include fontPrimary;
+}
+
+.collapseundefined {
+    .collapse__visible {
+        width: 77%;
+    }
+
+    .collapse__toggle {
+        width: 77%;
+    }
+
+    .collapse__toggle-animated {
+        width: 77%;
+    }
 }
