@@ -1,7 +1,5 @@
 .hostInfo-container {
-    width: 81%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
     margin-top: 3%;
     display: flex;
     justify-content: space-between;
@@ -46,16 +44,50 @@
     @include fontPrimary;
 }
 
+.collapse-fiche-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 0;
+    margin-left: 0;
+}
+
 .collapseundefined {
+    width: 55.125em;
+    margin: 0;
+    list-style-type: none;
+    color: $primary-color;
+    text-align: left;
+
+
     .collapse__visible {
-        width: 77%;
+        justify-content: space-between;
+        width: 55.125em;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 17px 1px;
     }
 
     .collapse__toggle {
-        width: 77%;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        text-align: left;
+        padding: 17px 1px;
+
+    }
+
+    p {
+        padding-left: 10px;
     }
 
     .collapse__toggle-animated {
-        width: 77%;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        text-align: left;
+        margin-bottom: 0;
+        padding: 17px 1px;
+
     }
 }
