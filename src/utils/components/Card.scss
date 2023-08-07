@@ -3,8 +3,8 @@
 .card {
     position: relative;
     display: flex;
-    width: 23.226vw;
-    height: 23.226vw;
+    width: 16vw;
+    height: 16vw;
     transition: transform 1s;
 
     &.link-card-logement {
@@ -41,7 +41,7 @@
         left: 18px;
         width: 3vw;
         font-family: "Montserrat";
-        font-size: 1.5vw;
+        font-size: 1.2vw;
     }
 }
 
@@ -49,7 +49,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    width: 90vw;
+    width: 68vw;
     gap: 100px;
     margin-top: 40px;
     margin-right: auto;
