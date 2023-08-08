@@ -3,8 +3,8 @@
 .card {
     position: relative;
     display: flex;
-    width: 22em;
-    height: 22em;
+    width: 30em;
+    height: 30em;
     transition: transform 1s;
 
     &.link-card-logement {
@@ -50,7 +50,7 @@
     justify-content: center;
     flex-wrap: wrap;
     width: 89vw;
-    gap: 150px;
+    gap: 100px;
     margin-top: 2.1vw;
     margin-right: auto;
     margin-left: auto;
@@ -61,5 +61,19 @@
 
     &.link-card-logement {
         text-decoration: none;
+    }
+}
+
+@media screen and (max-width:1200px) {
+
+    .card-container {
+        gap: 0px;
+    }
+
+    .card {
+        width: 95%;
+        height: 85%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
