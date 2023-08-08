@@ -1,4 +1,4 @@
-import Caption from "../../assets/caption.png"
+import Caption from "../../assets/Caption.png"
 
 function slogan() {
     return (
