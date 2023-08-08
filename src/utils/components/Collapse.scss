@@ -11,11 +11,11 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        height: 30px;
-        padding: 17px 25px;
+        height: 1.57vw;
+        padding: 10px 20px 10px 15px;
         border-radius: 5px;
-        width: 60%;
-        margin-top: 1%;
+        width: 50vw;
+        font-size: 1vw;
     }
 
     &__toggle {
@@ -24,34 +24,37 @@
         height: 0;
         opacity: 0;
         border-radius: 5px;
-        padding: 25px;
+        padding: 5px 15px 0 15px;
         transition: opacity 0.4s ease-in-out, height 0.4s ease-in-out;
-        width: 60%;
+        width: 50vw;
         margin-left: auto;
         margin-right: auto;
-        text-align: center;
+        text-align: left;
         font-family: "Montserrat";
         font-weight: bold;
+        line-height: 2em;
+        margin-bottom: 2vw;
     }
 
     p {
         color: #FF6060;
         pointer-events: none;
         margin: 0;
+
     }
 }
 
 .collapse__toggle-animated {
     opacity: 1;
     transition: opacity 0.4s ease-in-out, height 0.4s ease-in-out;
-    width: 60%;
-    margin-top: 0;
+    width: 50vw;
     margin-left: auto;
     margin-right: auto;
-    padding: 25px;
-    text-align: center;
+    padding: 5px 15px 0 15px;
+    text-align: left;
     font-family: "Montserrat";
     font-weight: bold;
+    margin-bottom: 2vw;
 }
 
 .chevron {

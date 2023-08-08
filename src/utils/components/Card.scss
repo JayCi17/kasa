@@ -3,8 +3,8 @@
 .card {
     position: relative;
     display: flex;
-    width: 16vw;
-    height: 16vw;
+    width: 352px;
+    height: 352px;
     transition: transform 1s;
 
     &.link-card-logement {
@@ -49,13 +49,13 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    width: 68vw;
-    gap: 100px;
-    margin-top: 40px;
+    width: 100%;
+    gap: 60px;
+    margin-top: 2.1vw;
     margin-right: auto;
     margin-left: auto;
-    padding-top: 100px;
-    padding-bottom: 20px;
+    padding-top: 4.2vw;
+    padding-bottom: 2.55vw;
     border-radius: 10px;
     background-color: $secondary-color;
 
