@@ -9,14 +9,14 @@
 .header {
     img {
         display: flex;
-        width: 10vw;
+        width: 20vh;
     }
 }
 
 .nav {
     display: flex;
     justify-content: flex-end;
-    font-size: 1.5vw;
+    font-size: 2vh;
     font-family: "Montserrat";
 }
 
@@ -51,7 +51,7 @@
 //Slogan style//
 
 .slogan-container {
-
+    position: relative;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -60,7 +60,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 2%;
-    border-radius: 10px;
+    margin-bottom: 3%;
 
 }
 
@@ -71,13 +71,12 @@
     font-family: "MontSerrat";
     display: flex;
     justify-content: center;
-    border-radius: 5px;
 }
 
 .slogan {
     width: 100%;
     object-fit: cover;
-    border-radius: 10px;
+    border-radius: 13px;
     margin: 0;
     opacity: 100%;
     filter: brightness(80%);
@@ -87,12 +86,15 @@
 
 .sloganText {
     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     z-index: 3;
     text-align: center;
-    top: 7.5vw;
-    bottom: 7.5vw;
+    margin-top: auto;
+    margin-bottom: auto;
     color: #fff;
-    font-size: 2.52vw;
+    font-size: 6vh;
 
 }
 
@@ -100,8 +102,20 @@
 
 //media queries//
 
-@media only screen and (max-width :1199px) {
+@media only screen and (max-width :900px) {
     .header {
         margin-left: 0;
+    }
+
+    .slogan-container {
+        height: 23vw;
+    }
+
+    .sloganText {
+        width: 52%;
+        height: 70%;
+        font-size: 3vh;
+        left: 30%;
+        text-align: left;
     }
 }

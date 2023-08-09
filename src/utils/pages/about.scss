@@ -1,12 +1,5 @@
-.aboutBanner {
-    width: 100%;
-    margin-top: 2%;
-    margin-bottom: 50px;
-    display: flex;
-    justify-content: center;
-}
-
-.about-picture {
-    width: 100%;
-    margin: 0;
+.aboutContainer {
+    @media screen and (max-width:1500px) {
+        height: 50%;
+    }
 }

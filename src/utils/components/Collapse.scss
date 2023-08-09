@@ -14,8 +14,8 @@
         height: 1.57vw;
         padding: 10px 20px 10px 15px;
         border-radius: 5px;
-        width: 50vw;
-        font-size: 1vw;
+        width: 75vw;
+        font-size: 1.2vw;
     }
 
     &__toggle {
@@ -24,37 +24,37 @@
         height: 0;
         opacity: 0;
         border-radius: 5px;
-        padding: 5px 15px 0 15px;
+        background: #f6f6f6;
+        padding: 0 0.94vw 0 0.94vw;
+        margin-bottom: 2vw;
         transition: opacity 0.4s ease-in-out, height 0.4s ease-in-out;
-        width: 50vw;
+        width: 75vw;
         margin-left: auto;
         margin-right: auto;
         text-align: left;
         font-family: "Montserrat";
         font-weight: bold;
-        line-height: 2em;
-        margin-bottom: 2vw;
-    }
-
-    p {
-        color: #FF6060;
-        pointer-events: none;
-        margin: 0;
-
+        line-height: 2vw;
     }
 }
 
 .collapse__toggle-animated {
     opacity: 1;
     transition: opacity 0.4s ease-in-out, height 0.4s ease-in-out;
-    width: 50vw;
+    width: 75vw;
     margin-left: auto;
     margin-right: auto;
-    padding: 5px 15px 0 15px;
+    background: #f6f6f6;
+    padding: 0 0.94vw 0 0.94vw;
     text-align: left;
     font-family: "Montserrat";
     font-weight: bold;
-    margin-bottom: 2vw;
+    line-height: 2vw;
+    margin-bottom: 1vw;
+}
+
+.paragraphCollapse {
+    color: $primary-color;
 }
 
 .chevron {
@@ -68,4 +68,26 @@
 .rotated {
     transform: rotate(180deg);
     transition: 0.4s ease-in-out;
+}
+
+@media screen and (max-width:980px) {
+
+    .collapse__visible {
+        font-size: 12px;
+    }
+
+    .collapse__toggle-animated {
+        width: 82vw;
+        padding: 2vw 0.94vw 2vw 0.94vw;
+    }
+
+    .collapse__toggle {
+        width: 82vw;
+        padding: 2vw 0.94vw 2vw 0.94vw;
+    }
+
+    .paragraphCollapse {
+        font-size: 10px;
+        line-height: 3vw;
+    }
 }
