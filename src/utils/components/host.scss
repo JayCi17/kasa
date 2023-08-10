@@ -91,3 +91,53 @@
 
     }
 }
+
+@media screen and (max-width:780px) {
+    .hostInfo-container {
+        margin-top: 40vh;
+    }
+
+    .collapse-fiche-container {
+        flex-direction: column;
+    }
+
+    .collapseundefined {
+        width: 90vw;
+
+        .collapse__visible {
+            width: 100%;
+        }
+
+        .collapse__toggle-animated {
+            height: auto;
+            margin-bottom: 2vh;
+        }
+    }
+
+    .paragraphCollapse {
+        font-size: 2.1vh;
+        line-height: 3vh;
+    }
+
+    .hostInfo-container {
+        flex-direction: column;
+    }
+
+    .title-container {
+        h1 {
+            font-size: 1.5em;
+        }
+
+        h3 {
+            font-size: 1em;
+        }
+    }
+
+    .rate-host-container {
+        width: 100%;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+}

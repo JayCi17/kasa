@@ -14,3 +14,15 @@
         font-weight: bold;
     }
 }
+
+@media screen and (max-width:780px) {
+    .tags-container {
+        height: 35px;
+
+        & .tagButton {
+            font-size: 0.6em;
+        }
+    }
+
+
+}
