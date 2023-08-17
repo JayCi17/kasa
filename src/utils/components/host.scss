@@ -94,7 +94,7 @@
 
 @media screen and (max-width:780px) {
     .hostInfo-container {
-        margin-top: 40vh;
+        margin-top: 32vh;
     }
 
     .collapse-fiche-container {
@@ -106,6 +106,7 @@
 
         .collapse__visible {
             width: 100%;
+            padding: 12px 1px;
         }
 
         .collapse__toggle-animated {
@@ -138,6 +139,15 @@
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
+    }
+
+    .hostPicture img {
+        height: 9.58vw;
+    }
+
+    .hostName {
+        margin-right: 80%;
+        font-size: 0.8em;
     }
 
 }

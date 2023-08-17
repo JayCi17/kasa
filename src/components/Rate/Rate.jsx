@@ -5,6 +5,7 @@ import starEmpty from "../../assets/starEmpty.png";
 
 
 function Rate({ score }) {
+    //création d'un tableau avec le niveau d'étoiles possible
     const stars = [1, 2, 3, 4, 5];
     return (
         <div className="rate">
