@@ -3,11 +3,20 @@
     background-color: black;
     text-align: center;
     color: white;
+    margin-top: auto;
     padding-top: 2vw;
     padding-bottom: 2vw;
-    margin-top: 20px;
 }
 
 .logo-Kasa {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+}
+
+
+@media screen and (max-width:900px) {
+    .footer-container {
+        padding-top: 12vw;
+        padding-bottom: 16vw;
+        overflow-y: hidden;
+    }
 }
