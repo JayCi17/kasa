@@ -29,3 +29,20 @@
     padding: 40px;
     margin-bottom: 50px;
 }
+
+
+@media screen and (max-width:900px) {
+    .errorContainer {
+        .errorNumber {
+            font-size: 80px;
+        }
+
+        .errorText {
+            font-size: 20px;
+        }
+
+        .errorLink {
+            text-align: center;
+        }
+    }
+}
