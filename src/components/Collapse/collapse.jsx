@@ -3,7 +3,7 @@ import Chevron from "../../assets/chevron.png"
 
 
 function Collapse(props) {
-    const [toggle, setToggle] = useState(false);//definition du state du toggle par defaut
+    const [toggle, setToggle] = useState(false);//definition du state du toggle pour gérer l'ouverture fermeture du collapse
     const [height1, setHeight1] = useState();//definition de la hauteur du collapse
 
     const toggleState = () => {
