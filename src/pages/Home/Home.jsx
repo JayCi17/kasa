@@ -1,24 +1,12 @@
 
-import { useEffect, useState } from "react"
 import Card from "../../components/Card/Card";
 import { Link } from "react-router-dom";
+import { useData } from "../../DataContext";
 import Slogan from "../../components/Slogan/Slogan"
 
-function Home() {
-    const [data, setData] = useState([]);
 
-    useEffect(() => {
-        const fetchData = async () => {
-            try {
-                const response = await fetch("/logements.json");
-                const jsonData = await response.json();
-                setData(jsonData);
-            } catch (error) {
-                console.error('erreur lors du chargement des donées', error)
-            }
-        }
-        fetchData()
-    }, [])
+function Home() {
+    const { data } = useData();
 
     return (
         <>
